@@ -17,7 +17,7 @@ public class CharacterStatsHandler : MonoBehaviour
         AttackSO attackSO = null;
         if(baseStats.attackSO != null)
         {
-            attackSO = Instantiate(baseStats.attackSO);
+            attackSO = Instantiate(baseStats.attackSO); //attackSO를 하나 더 생성해서 자유롭게 변경하기 위해 안 하면 attackSO값이 바뀜
         }
         CurrentStats = new CharacterStats { attackSO = attackSO };
         CurrentStats.statsChangeType = baseStats.statsChangeType;
