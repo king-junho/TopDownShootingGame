@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DisappearOnDeath : MonoBehaviour
 {
-    private HealthSystem _healthSystem;
+    private HealthSystem _healthSystem; //이벤트에 걸기 위해서
     private Rigidbody2D _rigidbody;
 
     private void Start()
