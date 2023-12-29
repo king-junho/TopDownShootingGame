@@ -80,6 +80,5 @@ public class TopDownContactEnemyController : TopDownEnemyController
         {
             _collidingMovement.ApplyKnockBack(transform, attackSO.knockbackPower, attackSO.knockbackTime);
         }
-        Debug.Log("공격당하는 중");
     }
 }
