@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 2314688893534295032}
+  shootingClip: {fileID: 0}
 --- !u!114 &2605053751661173953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,6 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthChangeDelay: 0.5
+  damageClip: {fileID: 0}
 --- !u!114 &5873495070418341633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,7 +405,7 @@ Animator:
   m_GameObject: {fileID: 6402841639583282326}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4118102de537b444da7c6b4df600a59c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0582492fc423c5a44949536091b9c3a8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

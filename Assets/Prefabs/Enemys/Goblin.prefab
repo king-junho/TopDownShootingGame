@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4309696903516604799}
   - component: {fileID: -5533419695875862977}
   - component: {fileID: -8218651480103140923}
+  - component: {fileID: 5736501936284580116}
   m_Layer: 6
   m_Name: Goblin
   m_TagString: Untagged
@@ -38,7 +39,7 @@ Transform:
   m_Children:
   - {fileID: 5259665191102014236}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &107023383576198572
 BoxCollider2D:
@@ -182,6 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthChangeDelay: 0.5
+  damageClip: {fileID: 0}
 --- !u!114 &-8218651480103140923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +196,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2927d759a7ca89140a8f0b812f179726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &5736501936284580116
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843128876723894171}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6
 --- !u!1 &1963380438741241576
 GameObject:
   m_ObjectHideFlags: 0

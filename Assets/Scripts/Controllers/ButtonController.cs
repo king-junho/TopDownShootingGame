@@ -8,6 +8,7 @@ public class ButtonController : MonoBehaviour
     public void PressedStartButton()
     {
         SceneManager.LoadScene("MainScene");
+        Time.timeScale = 1.0f;
     }
 
     public void PressedQuitButton()
